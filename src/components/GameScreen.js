@@ -289,9 +289,9 @@ export default function PaperTossGame() {
         )}
       </div>
       
-      <div className="game-tip">
+      {/* <div className="game-tip">
         Account for the wind direction and strength when aiming. The stronger the wind, the more it will affect your throw!
-      </div>
+      </div> */}
     </div>
   );
 }

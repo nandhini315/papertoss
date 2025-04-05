@@ -5,7 +5,11 @@
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  background:".../assets/classroom.jpeg";
+ background-image: url("../assets/classroom.jpeg");
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 
   min-height: 100vh;
   font-family: 'Arial', sans-serif;
@@ -16,9 +20,9 @@
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: #1e40af;
+  color: #101012;
   position: relative;
-  top: -20px;
+  top: -50px;
 }
 
 /* Game info section */
@@ -37,6 +41,8 @@
   border-radius: 0.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: -50px;
 }
 
 .wind-indicator {
@@ -48,13 +54,15 @@
   border-radius: 0.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  position: relative;
+  top: -50px;
 }
 
 .wind-arrow {
   display: flex;
   align-items: center;
   margin-left: 0.5rem;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .arrow-container {
@@ -71,9 +79,10 @@
 .difficulty-controls {
   display: flex;
   position: relative;
-  top: -50px;
+  top: -100px;
   gap: 0.5rem;
   margin-bottom: 1rem;
+
 }
 
 .difficulty-btn {
@@ -117,16 +126,18 @@
   width: 50%;
   /* max-width: 28rem; */
   height: 600px;
-  background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+  /* background: linear-gradient(to bottom, #a1c4fd, #c2e9fb); */
   border-radius: 0.75rem;
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  top: -70px;
   ;
 }
 
 /* Trash can */
 .trash-can {
   position: absolute;
+  margin-top: 150px;
   background: linear-gradient(to bottom, #6c757d, #495057);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 2px;
